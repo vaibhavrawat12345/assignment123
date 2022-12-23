@@ -25,6 +25,9 @@ let { shops } = require("./shopdata");
 let { products } = require("./productdata");
 
 
+
+
+
   app.get("/shops", function (req, res) {
     let arr1 = shops
     console.log(arr1)
@@ -102,26 +105,18 @@ app.get("/purchases", function (req, res) {
   let sort = req.query.sort;
   let arr1 = purchases
 
-  if (shop === "sp1") arr1 = arr1.filter((f) => f.shopId === 1);
-  if (shop === "sp2") arr1 = arr1.filter((f) => f.shopId === 2);
-  if (shop === "sp3") arr1 = arr1.filter((f) => f.shopId === 3);
-  if (shop === "sp4") arr1 = arr1.filter((f) => f.shopId === 4);
 
 
-  if (product === "pr1")  arr1 = arr1.filter((f) => f.productid === 1);
-  if (product === "pr2")  arr1 = arr1.filter((f) => f.productid === 2);
-  if (product === "pr3")  arr1 = arr1.filter((f) => f.productid === 3);
-  if (product === "pr4")  arr1 = arr1.filter((f) => f.productid === 4);
-  if (product === "pr5")  arr1 = arr1.filter((f) => f.productid === 5);
-  if (product === "pr6")  arr1 = arr1.filter((f) => f.productid === 6);
-  if (product === "pr7")  arr1 = arr1.filter((f) => f.productid === 7);
-  if (product === "pr8")  arr1 = arr1.filter((f) => f.productid === 8);
+  if (product) {
+    let pro = product.split(",");
+    arr1 = arr1.filter((st) => pro.find((c1) => c1 === st.productName));
+  }
+  if (shop) {
+    let shop1 = shop.split(",");
+    arr1 = arr1.filter((st) => shop1.find((c1) => c1 * 1 === st.shopId));
+  }
 
-  
-  // if (product) {
-  //   let pro = product.split(",")
-  //   arr1 = arr1.filter((st) => pro.find((c1)=> c1===st.productid ));
-  // } 
+
 
 
 
@@ -137,16 +132,6 @@ app.get("/purchases", function (req, res) {
   res.send(arr1);
 });
 
-// app.get("/totalPurchase/shop/:id", function (req, res) {
-//   let Id = +req.params.id;
-//  let arr1 = purchases.filter((f) => f.shopId === Id);
-//  let totalpurshop = arr1.filter(f=>f.productid.reduce((acc,curr)=>(curr.quantity+acc),0)) 
-//   console.log(totalpurshop)
-//   let arr = car2.filter((f) => f.fuel === fuel);
-//   arr1 = arr1.filter((st) => arr.find((f) => st.model === f.model));
-// console.log(totalpurshop)
-//   res.send(totalpurshop);
-// });
 app.post("/purchases", function (req, res) {
 
   let productArry = purchases
@@ -176,3 +161,51 @@ app.get("/src/products/:id", function (req, res) {
   console.log(arr1)
   res.send(arr1);
 });
+
+
+
+
+app.get("/totalpurchases/products/:id", function (req, res) {
+  let productId = +req.params.id;  
+  arr1 = purchases.filter((st) => st.productid === productId);
+  var result = arr1.reduce(function (agg, obj) {
+    var objForId = agg.filter(function (idObj) { return idObj.shopId === obj.shopId})[0]
+    
+    if (objForId) {
+      objForId.quantity += obj.quantity;
+    } else {
+      agg.push({
+        shopId: obj.shopId,
+        quantity: obj.quantity
+      })
+    }
+  
+    return agg;
+  }, [])
+
+  res.send(result);
+
+})
+
+app.get("/totalpurchases/shops/:id", function (req, res) {
+  let shopId = +req.params.id;  
+  arr1 = purchases.filter((st) => st.shopId === shopId);
+  var result = arr1.reduce(function (agg, obj) {
+    var objForId = agg.filter(function (idObj) { return idObj.productid === obj.productid})[0]
+    
+    if (objForId) {
+      objForId.quantity += obj.quantity;
+    } else {
+      agg.push({
+        productid: obj.productid,
+        quantity: obj.quantity
+      })
+    }
+  
+    return agg;
+  }, [])
+
+
+  res.send(result);
+
+})
