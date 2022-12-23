@@ -1,7 +1,7 @@
 let purchases = [
   {
     purchaseId: 1,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 10,
@@ -9,7 +9,7 @@ let purchases = [
   },
   {
     purchaseId: 2,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 15,
@@ -17,7 +17,7 @@ let purchases = [
   },
   {
     purchaseId: 3,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 3, productName: "Diet Coke",
 
     quantity: 5,
@@ -25,7 +25,7 @@ let purchases = [
   },
   {
     purchaseId: 4,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 4, productName: "Mazaa",
 
     quantity: 20,
@@ -33,7 +33,7 @@ let purchases = [
   },
   {
     purchaseId: 5,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -41,7 +41,7 @@ let purchases = [
   },
   {
     purchaseId: 6,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 15,
@@ -49,7 +49,7 @@ let purchases = [
   },
   {
     purchaseId: 7,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -57,7 +57,7 @@ let purchases = [
   },
   {
     purchaseId: 8,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 5,
@@ -65,7 +65,7 @@ let purchases = [
   },
   {
     purchaseId: 9,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -73,7 +73,7 @@ let purchases = [
   },
   {
     purchaseId: 10,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -81,7 +81,7 @@ let purchases = [
   },
   {
     purchaseId: 11,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 10,
@@ -89,7 +89,7 @@ let purchases = [
   },
   {
     purchaseId: 12,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -97,7 +97,7 @@ let purchases = [
   },
   {
     purchaseId: 13,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 20,
@@ -105,7 +105,7 @@ let purchases = [
   },
   {
     purchaseId: 14,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 20,
@@ -113,7 +113,7 @@ let purchases = [
   },
   {
     purchaseId: 15,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 3, productName: "Diet Coke",
 
     quantity: 30,
@@ -121,7 +121,7 @@ let purchases = [
   },
   {
     purchaseId: 16,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 4, productName: "Mazaa",
 
     quantity: 40,
@@ -129,7 +129,7 @@ let purchases = [
   },
   {
     purchaseId: 17,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -137,7 +137,7 @@ let purchases = [
   },
   {
     purchaseId: 18,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -145,7 +145,7 @@ let purchases = [
   },
   {
     purchaseId: 19,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 8, productName: "Perk",
 
     quantity: 10,
@@ -153,7 +153,7 @@ let purchases = [
   },
   {
     purchaseId: 20,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -161,7 +161,7 @@ let purchases = [
   },
   {
     purchaseId: 21,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 10,
@@ -169,7 +169,7 @@ let purchases = [
   },
   {
     purchaseId: 22,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 15,
@@ -177,7 +177,7 @@ let purchases = [
   },
   {
     purchaseId: 23,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 3, productName: "Diet Coke",
 
     quantity: 5,
@@ -185,7 +185,7 @@ let purchases = [
   },
   {
     purchaseId: 24,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 4, productName: "Mazaa",
 
     quantity: 20,
@@ -193,7 +193,7 @@ let purchases = [
   },
   {
     purchaseId: 25,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -201,7 +201,7 @@ let purchases = [
   },
   {
     purchaseId: 26,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 15,
@@ -209,7 +209,7 @@ let purchases = [
   },
   {
     purchaseId: 27,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -217,7 +217,7 @@ let purchases = [
   },
   {
     purchaseId: 28,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 5,
@@ -225,7 +225,7 @@ let purchases = [
   },
   {
     purchaseId: 29,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -233,7 +233,7 @@ let purchases = [
   },
   {
     purchaseId: 30,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -241,7 +241,7 @@ let purchases = [
   },
   {
     purchaseId: 31,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 10,
@@ -249,7 +249,7 @@ let purchases = [
   },
   {
     purchaseId: 32,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -257,7 +257,7 @@ let purchases = [
   },
   {
     purchaseId: 33,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 20,
@@ -265,7 +265,7 @@ let purchases = [
   },
   {
     purchaseId: 34,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 20,
@@ -273,7 +273,7 @@ let purchases = [
   },
   {
     purchaseId: 35,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 3, productName: "Diet Coke",
 
     quantity: 30,
@@ -281,7 +281,7 @@ let purchases = [
   },
   {
     purchaseId: 36,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 4, productName: "Mazaa",
 
     quantity: 40,
@@ -289,7 +289,7 @@ let purchases = [
   },
   {
     purchaseId: 37,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -297,7 +297,7 @@ let purchases = [
   },
   {
     purchaseId: 38,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -305,7 +305,7 @@ let purchases = [
   },
   {
     purchaseId: 39,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -313,7 +313,7 @@ let purchases = [
   },
   {
     purchaseId: 40,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -321,7 +321,7 @@ let purchases = [
   },
   {
     purchaseId: 41,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 10,
@@ -329,7 +329,7 @@ let purchases = [
   },
   {
     purchaseId: 42,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 15,
@@ -337,7 +337,7 @@ let purchases = [
   },
   {
     purchaseId: 43,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 3, productName: "Diet Coke",
 
     quantity: 5,
@@ -345,7 +345,7 @@ let purchases = [
   },
   {
     purchaseId: 44,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 4, productName: "Mazaa",
 
     quantity: 20,
@@ -353,7 +353,7 @@ let purchases = [
   },
   {
     purchaseId: 45,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -361,7 +361,7 @@ let purchases = [
   },
   {
     purchaseId: 46,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 15,
@@ -369,7 +369,7 @@ let purchases = [
   },
   {
     purchaseId: 47,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -377,7 +377,7 @@ let purchases = [
   },
   {
     purchaseId: 48,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 5,
@@ -385,7 +385,7 @@ let purchases = [
   },
   {
     purchaseId: 49,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -393,7 +393,7 @@ let purchases = [
   },
   {
     purchaseId: 50,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -401,7 +401,7 @@ let purchases = [
   },
   {
     purchaseId: 51,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 10,
@@ -409,7 +409,7 @@ let purchases = [
   },
   {
     purchaseId: 52,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -417,7 +417,7 @@ let purchases = [
   },
   {
     purchaseId: 53,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 20,
@@ -425,7 +425,7 @@ let purchases = [
   },
   {
     purchaseId: 54,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 20,
@@ -433,7 +433,7 @@ let purchases = [
   },
   {
     purchaseId: 55,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 3, productName: "Diet Coke",
 
     quantity: 30,
@@ -441,7 +441,7 @@ let purchases = [
   },
   {
     purchaseId: 56,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 4, productName: "Mazaa",
 
     quantity: 40,
@@ -449,7 +449,7 @@ let purchases = [
   },
   {
     purchaseId: 57,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -457,7 +457,7 @@ let purchases = [
   },
   {
     purchaseId: 58,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -465,7 +465,7 @@ let purchases = [
   },
   {
     purchaseId: 59,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 8, productName: "Perk",
 
     quantity: 10,
@@ -473,7 +473,7 @@ let purchases = [
   },
   {
     purchaseId: 60,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -481,7 +481,7 @@ let purchases = [
   },
   {
     purchaseId: 61,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 10,
@@ -489,7 +489,7 @@ let purchases = [
   },
   {
     purchaseId: 62,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 15,
@@ -497,7 +497,7 @@ let purchases = [
   },
   {
     purchaseId: 63,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 3, productName: "Diet Coke",
 
     quantity: 5,
@@ -505,7 +505,7 @@ let purchases = [
   },
   {
     purchaseId: 64,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 4, productName: "Mazaa",
 
     quantity: 20,
@@ -513,7 +513,7 @@ let purchases = [
   },
   {
     purchaseId: 65,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -521,7 +521,7 @@ let purchases = [
   },
   {
     purchaseId: 66,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 15,
@@ -529,7 +529,7 @@ let purchases = [
   },
   {
     purchaseId: 67,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 10,
@@ -537,7 +537,7 @@ let purchases = [
   },
   {
     purchaseId: 68,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 5, productName: "Dairy Milk",
 
     quantity: 5,
@@ -545,7 +545,7 @@ let purchases = [
   },
   {
     purchaseId: 69,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -553,7 +553,7 @@ let purchases = [
   },
   {
     purchaseId: 70,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -561,7 +561,7 @@ let purchases = [
   },
   {
     purchaseId: 71,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 10,
@@ -569,7 +569,7 @@ let purchases = [
   },
   {
     purchaseId: 72,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
@@ -577,7 +577,7 @@ let purchases = [
   },
   {
     purchaseId: 73,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 1, productName: "Pepsi Can",
 
     quantity: 20,
@@ -585,7 +585,7 @@ let purchases = [
   },
   {
     purchaseId: 74,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 2, productName: "Pepsi PET",
 
     quantity: 20,
@@ -593,7 +593,7 @@ let purchases = [
   },
   {
     purchaseId: 75,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 3, productName: "Diet Coke",
 
     quantity: 30,
@@ -601,7 +601,7 @@ let purchases = [
   },
   {
     purchaseId: 76,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 4, productName: "Mazaa",
 
     quantity: 40,
@@ -609,7 +609,7 @@ let purchases = [
   },
   {
     purchaseId: 77,
-    shopId: 2,
+    shopId: 2, shopname: "Sector 53, Gurgaon",
     productid: 8, productName: "Perk",
 
     quantity: 20,
@@ -617,7 +617,7 @@ let purchases = [
   },
   {
     purchaseId: 78,
-    shopId: 3,
+    shopId: 3, shopname: "Greater Kailash, Delhi",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -625,7 +625,7 @@ let purchases = [
   },
   {
     purchaseId: 79,
-    shopId: 4,
+    shopId: 4, shopname: "Mall of India, Noida",
     productid: 8, productName: "Perk",
 
     quantity: 15,
@@ -633,7 +633,7 @@ let purchases = [
   },
   {
     purchaseId: 80,
-    shopId: 1,
+    shopId: 1, shopname: "Sector 25, Gurgaon",
     productid: 6, productName: "Fruit & Nut",
 
     quantity: 5,
